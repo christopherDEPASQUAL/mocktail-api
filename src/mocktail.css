@@ -1,0 +1,48 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .button-voir-plus {
+    background-color: #6799C9;
+    color: #FFFFFF;
+    border: solid 1.5px #ffffff;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .button-voir-plus:hover {
+    color: #043498;
+  }
+  
+  .card {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #bcdbff;
+    justify-content: center;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    margin: 20px auto;
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+    margin-bottom: 15px;
+    margin-bottom: 50px;
+  }
+  
+  .card h2 {
+    background-color: #ffffff;
+    width: 100%; 
+    padding: 10px;
+    font-size: 1.2em;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #043498;
+  }
